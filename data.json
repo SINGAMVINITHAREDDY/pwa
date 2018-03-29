@@ -1,0 +1,48 @@
+{
+  "left":{
+    "photo":"image.jpg",
+    "name":"singamvinitha",
+    "email":"singamvini@apssdc.in",
+    "phno":"8501822413"
+  } ,
+  "Education":[
+    {
+      "course":"B.tech(Computer science and engineering)",
+      "college":[
+        "Ravindra college of engineering for women",
+        "2015-2019",
+        "78.86"
+      ]
+    },
+    {
+      "course":"Intermediate(MPC)",
+      "college":[
+        "Sri chaintanya junior college",
+        "2013-2015",
+        "92%"
+      ]
+    },
+    {
+      "course":"SSC",
+      "college":[
+        "Keshava Reddy Talent School",
+        "2003-2013",
+        "9.5"
+      ]
+    }
+  ],
+  "skills":[
+    {
+      "name":"operating systems",
+      "value":"windows,Linux"
+    },
+    {
+      "name":"programing languages",
+      "value":"C,C++,java"
+    },
+    {
+      "name":"web devolpment",
+      "value":"HTML,Python"
+    }
+  ]
+}

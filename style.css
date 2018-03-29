@@ -1,22 +1,29 @@
+table,tr,td{
+  border:2px solid #000;
+  border-collapse: collapse;
+  background-color: pink;
+
+}
 .main{
-  width: 100%;
-  background-color: #999;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #415;
 }
 .left{
-  width: 25%;
-  background-color: #c45e45;
+  text-align: justify;
+  background-color: #5F9EA0;
   border: 5px solid #000;
-  margin: 5px;
-  padding: 6px;
+  padding: 3px;
+  flex: 1;
+  color: #000;
   /* background-image: url(); */
 }
 .right{
-  width: 70%;
+  text-align: justify;
   background-color: #777;
   border: 5px solid #000;
-  margin: 5px;
+  flex:2px;
+  padding: 3px;
 }
 #name{
   color: green;
@@ -26,6 +33,7 @@
   border: 5px solid #c454;
   width: 100px;
   height: 100px;
+
 }
 /* media queries(1024,1280,768,480)
 1280-1024 : Desktop
@@ -35,20 +43,20 @@
  */
 /* @media screen and (min-width:425px){
   .main{
-    width: 100%;
+
     background-color: #999;
     display: flex;
-    flex-direction:column;
+    flex-wrap: wrap;
   }
   .left{
-    width: 25%;
-    background-color: #c45e45;
+
+    background-color: #8FBC8F;
     border: 5px solid #000;
 
   }
   .right{
-    width: 70%;
-    background-color: #666;
+
+    background-color: #8B008B;
     border: 5px solid #000;
     margin: 5px;
     padding: 6px;
@@ -67,24 +75,61 @@
 {
   .main{
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    flex-wrap: wrap;
+
   }
   .left{
-    width: 25%;
-    background-color: #985;
+
+    background-color: #8B008B;
   }
   .right{
-    width: 75%;
-    background-color: #5336;
+
+    background-color: #8FBC8F;
   }
 }
-/* @media only screen and (min-width:768px) and (max-width:1024px) {
+@media only screen and (min-width:768px) and (max-width:1024px) {
+  .main{
+    display: flex;
+    flex-wrap: wrap;
 
+  }
+  .left{
+
+    background-color: #FF8C00;
+  }
+  .right{
+
+    background-color: #483D8B;
+  }
 }
 @media only screen and (min-width:480px) and (max-width:768px) {
+  .main{
+    display: flex;
+    flex-wrap: wrap;
 
+  }
+  .left{
+
+    background-color: #2F4F4F;
+  }
+  .right{
+
+    background-color: 	#DAA520;
+  }
 }
 @media only screen and (max-width:480px) {
+  .main{
+    display: flex;
+    flex-wrap: wrap;
 
-} */
+  }
+  .left{
+
+    background-color: 	#FAFAD2;
+  }
+  .right{
+
+    background-color: #ADD8E6;
+  }
+
+}
